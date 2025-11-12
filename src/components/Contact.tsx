@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Mail, Phone, Linkedin, MapPin } from "lucide-react";
+import { Mail, Phone, MapPin } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -21,7 +21,7 @@ const Contact = () => {
 
               <div className="grid md:grid-cols-2 gap-6">
                 <a
-                  href="mailto:arnoldkiriago@email.com"
+                  href="mailto:kiriagoarnold@gmail.com"
                   className="flex items-center gap-4 p-4 rounded-lg border border-border hover:border-primary hover:bg-primary/5 transition-all"
                 >
                   <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
@@ -29,12 +29,12 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-sm text-muted-foreground">Email</p>
-                    <p className="font-semibold text-foreground">arnoldkiriago@email.com</p>
+                    <p className="font-semibold text-foreground">kiriagoarnold@gmail.com</p>
                   </div>
                 </a>
 
                 <a
-                  href="tel:+254700000000"
+                  href="tel:+254715755868"
                   className="flex items-center gap-4 p-4 rounded-lg border border-border hover:border-primary hover:bg-primary/5 transition-all"
                 >
                   <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
@@ -42,22 +42,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-sm text-muted-foreground">Phone</p>
-                    <p className="font-semibold text-foreground">+254 700 000 000</p>
-                  </div>
-                </a>
-
-                <a
-                  href="https://linkedin.com/in/arnoldkiriago"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-4 p-4 rounded-lg border border-border hover:border-primary hover:bg-primary/5 transition-all"
-                >
-                  <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
-                    <Linkedin className="h-6 w-6 text-primary" />
-                  </div>
-                  <div>
-                    <p className="text-sm text-muted-foreground">LinkedIn</p>
-                    <p className="font-semibold text-foreground">linkedin.com/in/arnoldkiriago</p>
+                    <p className="font-semibold text-foreground">0715 755 868</p>
                   </div>
                 </a>
 
@@ -74,7 +59,7 @@ const Contact = () => {
 
               <div className="mt-8 text-center">
                 <Button size="lg" asChild>
-                  <a href="mailto:arnoldkiriago@email.com">Send Message</a>
+                  <a href="mailto:kiriagoarnold@gmail.com">Send Message</a>
                 </Button>
               </div>
             </CardContent>
